@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
 
-*This is the source code and is based on [minimal](https://github.com/orderedlist/minimal) and [Yaoyao Liu's repository](https://github.com/yaoyao-liu)*
+*This is the source code and is based on [minimal](https://github.com/orderedlist/minimal) and [Yaoyao Liu's repository](https://github.com/yaoyao-liu/minimal-light)*
 <br>
 
 ## Features
