@@ -1,8 +1,10 @@
 # Basic Information 
 title: Marina Samprovalaki
-position: MSc Student
+email: marina.samprovalaki@gmail.com
+position: AI Engineer
 affiliation: Athens University of Economics and Business
 address: Athens, Greece
+
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -16,7 +18,8 @@ google_scholar: https://scholar.google.com/citations?user=iRPZ3joAAAAJ&hl=en&aut
 cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/marina-sam14
 linkedin: https://www.linkedin.com/in/marina-samprovalaki/
-email: marina.samprovalaki@gmail.com
+
+
 
 
 # Images (e.g., your profile picture and your website's favicon) 
