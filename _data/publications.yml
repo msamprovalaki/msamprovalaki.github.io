@@ -30,5 +30,5 @@ main:
     # page: "https://link-to-project-page.com"  # Optional project page, remove if not applicable
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:OvUpG46TXqwJ:scholar.google.com/&output=citation&scisdr=ClG1XqcoEJa156B-rdg:AFWwaeYAAAAAZxd4tdg8WT00Az6vRnRmRrSLtEk&scisig=AFWwaeYAAAAAZxd4tZVssqtIkVaPnu5M4wEIKQc&scisf=4&ct=citation&cd=-1&hl=en&authuser=1"  # Optional BibTeX link, if applicable
     # notes: ""  # Any additional notes if applicable, or leave empty
-    # image: "https://link-to-image.com"  # Optional image link, remove if not applicable
+    image: "./assets/img/imageclef24.png
     # others: ""  # Additional info if applicable, or leave empty
