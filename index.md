@@ -4,20 +4,24 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+My name is Marina and I am currently pursuing my MSc in Computer Science under the supervision of [Prof. Ion Androutsopoulos](https://www2.aueb.gr/users/ion/). My research centers on Multimodal Large Language Models and their applications in the biomedical field, particularly in Diagnostic Captioning. I am especially interested in Natural Language Processing, Computer Vision, and exploring how Generative AI can enhance model robustness.
+
+Additionally, I am an active member of the [Natural Language Processing Group](http://nlp.cs.aueb.gr) at AUEB, where we engage in research on NLP and Machine Learning.
+
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Vision:** Image Captioning, Object Detection, Video Captioning
+- **Natural Language Processing:** Large Language Models, Multimodal Large Language Models, Text Generation, Alignment with Human Preference
+- **Deep Learning**: Multimodal Learning, Generative Adversarial Networks
+
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Oct. 2023]** My thesis in under the final review and will be available soon in the NLP Group’s [website](http://nlp.cs.aueb.gr)
+
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+
+<!-- {% include_relative _includes/services.md %} -->
