@@ -2,11 +2,11 @@
 title: Marina Samprovalaki
 position: MSc Student
 affiliation: Athens University of Economics and Business
-email: marina.samprovalaki (at) gmail.com
+address: Athens, Greece
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-# keywords: minimal light
+keywords: Machine Learning, Artificial Intelligence, Deep Learning, Natural Language Processing, ML, AI, DL, NLP
 # description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
 # canonical: https://minimal-light-theme.yliu.me/
 
@@ -17,7 +17,6 @@ cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/marina-sam14
 linkedin: https://www.linkedin.com/in/marina-samprovalaki/
 email:  marina.samprovalaki@gmail.com
-# twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
@@ -35,11 +34,11 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Roboto" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+# google_analytics: UA-111540567-4
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
@@ -55,4 +54,4 @@ exclude:
   - README_de.md
   - LICENSE
   - minimal-light.gemspec
-  - html_source_file/
+  # - html_source_file/
