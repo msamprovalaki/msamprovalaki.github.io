@@ -20,7 +20,8 @@ Additionally, I am an active member of the [Natural Language Processing Group](h
 ## News
 
 - **[Oct. 2024]** My thesis in under the final review and will be available soon in the NLP Group’s [website](http://nlp.cs.aueb.gr/theses.html)
-- **[May 2024]** The AUEB NLP Group has submitted the AUEB ImageCLEFmed 2024 paper, with myself as the primary contributor.
+- **[Sept. 2024]** We have presented our paper for the ImageCLEFmedical 2024 in Grenoble,France. 
+- **[May 2024]** Our paper for the ImageCLEFmedical 2024 campaign has been submitted. 
 
 
 {% include_relative _includes/publications.md %}
