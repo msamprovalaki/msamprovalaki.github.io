@@ -25,9 +25,11 @@ main:
     authors: "Marina Samprovalaki, Anna Chatzipapadopoulou, Georgios Moschovis, P Kaliosis, J Pavlopoulos, I Androutsopoulos"
     # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
     # conference_short: "Conf. Abbr"  # Optional abbreviation
-    pdf: "https://link-to-pdf.com"  # If available, add the link to the PDF
-    code: "https://link-to-code.com"  # Optional code link, remove if not applicable
-    # page: "https://link-to-project-page.com"  # Optional project page, remove if not applicable
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:OvUpG46TXqwJ:scholar.google.com/&output=citation&scisdr=ClG1XqcoEJa156B-rdg:AFWwaeYAAAAAZxd4tdg8WT00Az6vRnRmRrSLtEk&scisig=AFWwaeYAAAAAZxd4tZVssqtIkVaPnu5M4wEIKQc&scisf=4&ct=citation&cd=-1&hl=en&authuser=1"  # Optional BibTeX link, if applicable
-    # notes: ""  # Any additional notes if applicable, or leave empty
+    pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2024_paper.pdf"  
+    code: "https://github.com/nlpaueb/imageclef2024"  
+    slides: "http://nlp.cs.aueb.gr/pubs/CLEF2024-Slides-Public.pdf"
+    poster: "http://nlp.cs.aueb.gr/pubs/AUEB-NLP-Group@ImageCLEF24-Poster-1.pdf"
+    post: "https://www.linkedin.com/posts/asmabenabacha_clef2024-activity-7240048944980930560-pFYK?utm_source=share&utm_medium=member_desktop"
+    # bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:OvUpG46TXqwJ:scholar.google.com/&output=citation&scisdr=ClG1XqcoEJa156B-rdg:AFWwaeYAAAAAZxd4tdg8WT00Az6vRnRmRrSLtEk&scisig=AFWwaeYAAAAAZxd4tZVssqtIkVaPnu5M4wEIKQc&scisf=4&ct=citation&cd=-1&hl=en&authuser=1"  
+    bibtex: "./assets/bibs/imageclef24.bib"
     image: "./assets/img/imageclef24.png"
