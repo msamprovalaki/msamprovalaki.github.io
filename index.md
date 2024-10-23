@@ -18,7 +18,7 @@ Additionally, I am an active member of the [Natural Language Processing Group](h
 
 ## News
 
-- **[Oct. 2023]** My thesis in under the final review and will be available soon in the NLP Group’s [website](http://nlp.cs.aueb.gr/theses.html)
+- **[Oct. 2024]** My thesis in under the final review and will be available soon in the NLP Group’s [website](http://nlp.cs.aueb.gr/theses.html)
 
 
 {% include_relative _includes/publications.md %}
