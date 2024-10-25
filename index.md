@@ -19,7 +19,7 @@ My name is Marina and I am currently pursuing my MSc in Computer Science under t
 
 - **[Oct. 2024]** My thesis in under the final review and will be available soon in the NLP Group’s [website](http://nlp.cs.aueb.gr/theses.html)
 - **[Sept. 2024]** We have presented our paper for the ImageCLEFmedical 2024 in Grenoble,France. 
-- **[May 2024]** Our paper for the ImageCLEFmedical 2024 campaign has been submitted. 
+- **[May 2024]** We submitted our paper for the ImageCLEFmedical 2024 campaign.
 
 
 {% include_relative _includes/publications.md %}
