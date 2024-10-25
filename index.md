@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-My name is Marina and I am currently pursuing my MSc in Computer Science under the supervision of [Prof. Ion Androutsopoulos](https://www2.aueb.gr/users/ion/). My research centers on Multimodal Large Language Models and their applications in the biomedical field, particularly in Diagnostic Captioning. I am especially interested in Natural Language Processing, Computer Vision, and exploring how Generative AI can enhance model robustness.
+My name is Marina and I am currently pursuing my MSc in Computer Science under the supervision of [Prof. Ion Androutsopoulos](https://www2.aueb.gr/users/ion/). My research centers on Multimodal Large Language Models and their applications in the biomedical field, particularly in Diagnostic Captioning. I am especially interested in Natural Language Processing, Computer Vision, and Generative AI.
 
 
 
