@@ -6,7 +6,7 @@ layout: homepage
 
 My name is Marina and I am currently pursuing my MSc in Computer Science under the supervision of [Prof. Ion Androutsopoulos](https://www2.aueb.gr/users/ion/) and [Prof. John Pavlopoulos](https://ipavlopoulos.github.io/). My research centers on Multimodal Large Language Models and their applications in the biomedical field, particularly in Diagnostic Captioning. I am especially interested in Natural Language Processing, Computer Vision, and Generative AI.
 
-Additionally, I am an active member of the [Natural Language Processing Group](http://nlp.cs.aueb.gr/theses.html) at AUEB, where we engage in research on NLP and Machine Learning.
+Additionally, I am an active member of the [Natural Language Processing Group](http://nlp.cs.aueb.gr/) at AUEB, where we engage in research on NLP and Machine Learning.
 
 
 
