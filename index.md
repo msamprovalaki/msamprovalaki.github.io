@@ -13,7 +13,7 @@ Additionally, I am an active member of the [Natural Language Processing Group](h
 ## Research Interests
 
 - **Computer Vision:** Image Captioning, Object Detection, Video Captioning
-- **Natural Language Processing:** Large Language Models, Multimodal Large Language Models, Text Generation, Alignment with Human Preference
+- **Natural Language Processing:** Large Language Models, Multimodal Large Language Models, Text Generation, Reinforcement Learning from Human Feedback
 - **Deep Learning**: Multimodal Learning, Generative Adversarial Networks
 
 
