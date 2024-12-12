@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Currently working as AI Enginner in [Agile Actors](https://www.agileactors.com), with a specialization in Natural Language Processing (NLP) and a focus on Generative AI.
+Currently working as an AI Engineer at  [Agile Actors](https://www.agileactors.com), with a specialization in Natural Language Processing (NLP) and a focus on Generative AI.
 
 Holding an MSc in Computer Science, research was conducted under the supervision of [Prof. Ion Androutsopoulos](https://www2.aueb.gr/users/ion/) and [Prof. John Pavlopoulos](https://ipavlopoulos.github.io/),  focusing on Multimodal Large Language Models and their applications in the biomedical domain, particularly in Diagnostic Captioning. Areas of expertise include Natural Language Processing, Computer Vision, and Generative AI.
 
