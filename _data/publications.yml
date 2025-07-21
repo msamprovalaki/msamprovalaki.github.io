@@ -21,6 +21,16 @@ main:
   #   notes: Oral Presentation
   #   image: ./assets/img/teaser_example.png
 
+   - title: "AUEB NLP Group at ImageCLEFmedical Caption 2025"
+    authors: "Anna Chatzipapadopoulou, Ippokratis Pantelidis, Foivos Charalampakos,Marina Samprovalaki, Georgios Moschovis, Panagiotis Kaliosis, Kalliopi V. Dalakleidi,John Pavlopoulos and Ion Androutsopoulos"
+    # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
+    # conference_short: "Conf. Abbr"  # Optional abbreviation
+    pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2025_paper__AUEBNLPGROUP_.pdf"  
+    code: "https://github.com/nlpaueb/imageclef2025"  
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:STGL9WcsqpsJ:scholar.google.com/&output=citation&scisdr=CgKGql0DEOOY1MMR6MM:AAZF9b8AAAAAaH4X8MMDoZONkcgKpehzkXnEfmA&scisig=AAZF9b8AAAAAaH4X8Lqs5nWF2keRmsGV8_S_t3M&scisf=4&ct=citation&cd=-1&hl=en"
+    # bibtex: "./assets/bibs/imageclef24.bib"
+    image: "./assets/img/imageclef24.png"
+
   - title: "AUEB NLP Group at ImageCLEFmedical Caption 2024"
     authors: "Marina Samprovalaki, Anna Chatzipapadopoulou, Georgios Moschovis, P Kaliosis, J Pavlopoulos, I Androutsopoulos"
     # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name

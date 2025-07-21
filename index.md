@@ -21,10 +21,11 @@ Additionally, I am an active member of the [Natural Language Processing Group](h
 
 ## News
 
+- **[May 2025]** We submitted our paper for the [ImageCLEFmedical 2025](https://www.imageclef.org/2025/medical) competition.
 - **[Dec. 2024]** My thesis is now available in the AUEB NLP Group's [website](http://nlp.cs.aueb.gr/theses.html).
 - **[Nov. 2024]** My thesis in under the final review and will be available soon in the AUEB NLP Group’s [website](http://nlp.cs.aueb.gr/theses.html).
 - **[Sept. 2024]** We presented our paper for ImageCLEFmedical 2024 at the [CLEF conference](https://clef2024.imag.fr/) in Grenoble, France.
-- **[May 2024]** We submitted our paper for the [ImageCLEFmedical 2024](https://www.imageclef.org/2024/medical) campaign.
+- **[May 2024]** We submitted our paper for the [ImageCLEFmedical 2024](https://www.imageclef.org/2024/medical) competition.
 
 
 {% include_relative _includes/publications.md %}
