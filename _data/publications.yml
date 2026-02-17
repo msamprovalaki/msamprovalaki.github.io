@@ -1,53 +1,53 @@
-main:
+# # main:
 
-  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-  #   conference_short: MICCAI
-  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
-  #   code: https://github.com/MrGiovanni/ContinualLearning
-  #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   image: ./assets/img/teaser_example_2.png
-  #   notes: Early Accept
+#   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+#   #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+#   #   conference_short: MICCAI
+#   #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+#   #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+#   #   code: https://github.com/MrGiovanni/ContinualLearning
+#   #   bibtex: https://bib.yliu.me/MICCAI23.txt
+#   #   image: ./assets/img/teaser_example_2.png
+#   #   notes: Early Accept
 
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+#   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+#   #   conference_short: CVPR
+#   #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+#   #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+#   #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#   #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#   #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#   #   notes: Oral Presentation
+#   #   image: ./assets/img/teaser_example.png
 
-   - title: "AUEB NLP Group at ImageCLEFmedical Caption 2025"
-    authors: "Anna Chatzipapadopoulou, Ippokratis Pantelidis, Foivos Charalampakos,Marina Samprovalaki, Georgios Moschovis, Panagiotis Kaliosis, Kalliopi V. Dalakleidi,John Pavlopoulos and Ion Androutsopoulos"
-    # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
-    # conference_short: "Conf. Abbr"  # Optional abbreviation
-    pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2025_paper__AUEBNLPGROUP_.pdf"  
-    code: "https://github.com/nlpaueb/imageclef2025"  
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:STGL9WcsqpsJ:scholar.google.com/&output=citation&scisdr=CgKGql0DEOOY1MMR6MM:AAZF9b8AAAAAaH4X8MMDoZONkcgKpehzkXnEfmA&scisig=AAZF9b8AAAAAaH4X8Lqs5nWF2keRmsGV8_S_t3M&scisf=4&ct=citation&cd=-1&hl=en"
-    # bibtex: "./assets/bibs/imageclef24.bib"
-    image: "./assets/img/imageclef24.png"
+#    - title: "AUEB NLP Group at ImageCLEFmedical Caption 2025"
+#     authors: "Anna Chatzipapadopoulou, Ippokratis Pantelidis, Foivos Charalampakos,Marina Samprovalaki, Georgios Moschovis, Panagiotis Kaliosis, Kalliopi V. Dalakleidi,John Pavlopoulos and Ion Androutsopoulos"
+#     # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
+#     # conference_short: "Conf. Abbr"  # Optional abbreviation
+#     pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2025_paper__AUEBNLPGROUP_.pdf"  
+#     code: "https://github.com/nlpaueb/imageclef2025"  
+#     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:STGL9WcsqpsJ:scholar.google.com/&output=citation&scisdr=CgKGql0DEOOY1MMR6MM:AAZF9b8AAAAAaH4X8MMDoZONkcgKpehzkXnEfmA&scisig=AAZF9b8AAAAAaH4X8Lqs5nWF2keRmsGV8_S_t3M&scisf=4&ct=citation&cd=-1&hl=en"
+#     # bibtex: "./assets/bibs/imageclef24.bib"
+#     image: "./assets/img/imageclef24.png"
 
-  - title: "AUEB NLP Group at ImageCLEFmedical Caption 2024"
-    authors: "Marina Samprovalaki, Anna Chatzipapadopoulou, Georgios Moschovis, P Kaliosis, J Pavlopoulos, I Androutsopoulos"
-    # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
-    # conference_short: "Conf. Abbr"  # Optional abbreviation
-    pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2024_paper.pdf"  
-    code: "https://github.com/nlpaueb/imageclef2024"  
-    slides: "http://nlp.cs.aueb.gr/pubs/CLEF2024-Slides-Public.pdf"
-    poster: "http://nlp.cs.aueb.gr/pubs/AUEB-NLP-Group@ImageCLEF24-Poster-1.pdf"
-    post: "https://www.linkedin.com/posts/asmabenabacha_clef2024-activity-7240048944980930560-pFYK?utm_source=share&utm_medium=member_desktop"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:OvUpG46TXqwJ:scholar.google.com/&output=citation&scisdr=ClGyPd0VEJa158F7wuM:AFWwaeYAAAAAZ3Z92uM1kRLpZXKwfw0PZsFcUWs&scisig=AFWwaeYAAAAAZ3Z92hdlGzUAWDQi8v6eHu1Y-9o&scisf=4&ct=citation&cd=-1&hl=en&authuser=1"
-    # bibtex: "./assets/bibs/imageclef24.bib"
-    image: "./assets/img/imageclef24.png"
+#   - title: "AUEB NLP Group at ImageCLEFmedical Caption 2024"
+#     authors: "Marina Samprovalaki, Anna Chatzipapadopoulou, Georgios Moschovis, P Kaliosis, J Pavlopoulos, I Androutsopoulos"
+#     # conference: "Journal or Conference Name"  # Replace this with the actual journal/conference name
+#     # conference_short: "Conf. Abbr"  # Optional abbreviation
+#     pdf: "http://nlp.cs.aueb.gr/pubs/ImageCLEF_2024_paper.pdf"  
+#     code: "https://github.com/nlpaueb/imageclef2024"  
+#     slides: "http://nlp.cs.aueb.gr/pubs/CLEF2024-Slides-Public.pdf"
+#     poster: "http://nlp.cs.aueb.gr/pubs/AUEB-NLP-Group@ImageCLEF24-Poster-1.pdf"
+#     post: "https://www.linkedin.com/posts/asmabenabacha_clef2024-activity-7240048944980930560-pFYK?utm_source=share&utm_medium=member_desktop"
+#     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:OvUpG46TXqwJ:scholar.google.com/&output=citation&scisdr=ClGyPd0VEJa158F7wuM:AFWwaeYAAAAAZ3Z92uM1kRLpZXKwfw0PZsFcUWs&scisig=AFWwaeYAAAAAZ3Z92hdlGzUAWDQi8v6eHu1Y-9o&scisf=4&ct=citation&cd=-1&hl=en&authuser=1"
+#     # bibtex: "./assets/bibs/imageclef24.bib"
+#     image: "./assets/img/imageclef24.png"
 
-  - title: "Exploring multimodal large language models for medical image captioning"
-    authors: "Marina Samprovalaki"
-    pdf: "http://nlp.cs.aueb.gr/theses/m_samprovalaki_msc_thesis.pdf"  
-    code: "https://github.com/msamprovalaki/Exploring-Multimodal-Large-Language-Models-for-Medical-Image-Captioning"  
-    slides: "https://auebgr-my.sharepoint.com/:p:/g/personal/mar_samprovalaki_aueb_gr/EZoZI-rhd51IhCftJvCBXwoBVfpQ_hJcmuJ6B2B33UyUcQ?e=QsfGSr"
-    bibtex: "./assets/bibs/thesis.bib"
-    image: "./assets/img/thesis.png"
+#   - title: "Exploring multimodal large language models for medical image captioning"
+#     authors: "Marina Samprovalaki"
+#     pdf: "http://nlp.cs.aueb.gr/theses/m_samprovalaki_msc_thesis.pdf"  
+#     code: "https://github.com/msamprovalaki/Exploring-Multimodal-Large-Language-Models-for-Medical-Image-Captioning"  
+#     slides: "https://auebgr-my.sharepoint.com/:p:/g/personal/mar_samprovalaki_aueb_gr/EZoZI-rhd51IhCftJvCBXwoBVfpQ_hJcmuJ6B2B33UyUcQ?e=QsfGSr"
+#     bibtex: "./assets/bibs/thesis.bib"
+#     image: "./assets/img/thesis.png"
