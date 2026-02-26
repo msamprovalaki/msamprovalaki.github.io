@@ -6,4 +6,4 @@ Gemfile.lock
 .jekyll-cache
 git-update.sh
 .vscode/
-
+.env
