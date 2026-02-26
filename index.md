@@ -15,4 +15,31 @@ AI Engineer at [Agile Actors](https://www.agileactors.com) and Researcher with t
 - **Agent-to-Agent Protocols**: Investigating standardized communication layers for cross-platform agent collaboration.
 - **Foundation Vision Models**: Researching self-supervised pre-training for universal image and video representation.
 
+## Thesis
+ My thesis, titled **"Exploring Multimodal Large Language Models for Medical Image Captioning"** focused on developing state-of-the-art diagnostic captioning systems for medical images, leveraging the latest advancements in Multimodal LLMs. The research involved designing novel architectures and training strategies to enhance the accuracy and interpretability of generated captions, ultimately aiming to improve clinical decision support and patient care. 
+ - The full thesis is available [here](https://nlp.cs.aueb.gr/theses/m_samprovalaki_msc_thesis.pdf)
+ - The associated codebase [here](https://github.com/msamprovalaki/Exploring-Multimodal-Large-Language-Models-for-Medical-Image-Captioning)
+ - A slide deck providing a quick overview can be found [here](https://nlp.cs.aueb.gr/theses/exploring_%20multimodal%20_LLMs_m_samprovalaki.pptx)
+
+### Citation
+If you find my work useful, please consider citing it:
+
+<style>
+pre, code {
+  background-color: transparent;
+  color: white;
+}
+</style>
+
+```bibtex
+@mastersthesis{samprovalaki2024exploring,
+  author    = {Samprovalaki, Marina},
+  title     = {Exploring Multimodal Large Language Models for Medical Image Captioning},
+  school    = {Athens University of Economics and Business},
+  year      = {2024},
+  pages     = {89},
+  url       = {https://nlp.cs.aueb.gr/theses/m_samprovalaki_msc_thesis.pdf}
+}
+```
+
 

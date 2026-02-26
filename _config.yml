@@ -58,4 +58,5 @@ exclude:
   - README_de.md
   - LICENSE
   - minimal-light.gemspec
+  - vendor/bundle
   # - html_source_file/
