@@ -5,5 +5,9 @@ Gemfile.lock
 .DS_Store
 .jekyll-cache
 git-update.sh
-.vscode/
+.vscode
 .env
+.venv
+.bundle
+bundle-error.md
+
