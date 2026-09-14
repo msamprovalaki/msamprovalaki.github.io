@@ -195,10 +195,35 @@
         <header class="section-head" data-reveal>
           <p class="eyebrow"><span>02</span> Selected work</p>
           <h2>Systems, decisions, results</h2>
-          <p class="section-sub">A few projects I can talk about publicly, and the engineering choices that made them work.</p>
+          <p class="section-sub">Systems I've built, and the engineering choices that made them work.</p>
         </header>
 
         <article class="case" data-reveal>
+          <div class="case-copy">
+            <p class="case-kicker">Production system · Regulated enterprise</p>
+            <h3>Ask the database in plain language, safely</h3>
+            <p class="case-lede">Business users need answers that live in a relational database, but letting a model write SQL against real data raises hard questions about correctness and security. I built and shipped a multi-agent assistant that turns natural-language questions into SQL queries, together with the guardrails and evaluation that make it fit for production.</p>
+            <dl class="decisions">
+              <div><dt>Guardrails around the model</dt><dd>Generated SQL is validated, prompts are hardened against injection, and attack attempts are monitored.</dd></div>
+              <div><dt>Accuracy is measured</dt><dd>An LLM-as-judge evaluation pipeline measures and tracks SQL-generation accuracy, so quality is a number rather than an impression.</dd></div>
+              <div><dt>Production ownership</dt><dd>I deploy and operate containerised services on OpenShift, including diagnosing and resolving incidents.</dd></div>
+            </dl>
+            <ul class="tags"><li>Multi-agent</li><li>Text-to-SQL</li><li>SQL validation</li><li>Prompt hardening</li><li>LLM-as-judge</li><li>OpenShift</li></ul>
+            <p class="case-note">Client work. The system, data and results are confidential, so this describes the engineering only.</p>
+          </div>
+          <div class="case-visual" aria-label="Text-to-SQL assistant diagram">
+            <ol class="flow">
+              <li><span>Question</span><small>plain-language request</small></li>
+              <li><span>Agents</span><small>multi-agent reasoning → SQL query</small></li>
+              <li class="is-gate"><span>Guardrails</span><small>SQL validation · hardened prompts</small></li>
+              <li><span>Execute</span><small>query runs on the database</small></li>
+              <li class="is-out"><span>Answer</span><small>result returned to the user</small></li>
+              <li class="is-loop" data-note="↺ tracked over time"><span>Evaluate</span><small>LLM-as-judge scores SQL accuracy</small></li>
+            </ol>
+          </div>
+        </article> -->
+
+        <!-- <article class="case" data-reveal>
           <div class="case-copy">
             <p class="case-kicker">Production pattern · Reference implementation</p>
             <h3>Messy documents in, validated structure out</h3>
@@ -216,7 +241,7 @@
               <li><span>Classify</span><small>tree or narrative → few-shot set</small></li>
               <li><span>Map</span><small>forced tool use → Pydantic object</small></li>
               <li class="is-gate"><span>Validate</span><small>deterministic checks, no LLM</small></li>
-              <li class="is-loop"><span>Repair</span><small>at most once, only if flagged</small></li>
+              <li class="is-loop" data-note="↺ back to validate"><span>Repair</span><small>at most once, only if flagged</small></li>
               <li class="is-out"><span>Render</span><small>Jinja2 → clean Markdown</small></li>
             </ol>
           </div>

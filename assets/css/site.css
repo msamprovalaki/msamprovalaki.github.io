@@ -459,6 +459,7 @@ kbd {
 .decisions dt { font-weight: 600; font-size: 15px; }
 .decisions dd { margin: 2px 0 0; color: var(--ink-2); font-size: 15px; }
 .case-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; }
+.case-note { margin-top: 20px; font-size: 13.5px; color: var(--ink-3); }
 .case-visual {
   align-self: stretch; display: grid; place-items: center;
   padding: clamp(18px, 3vw, 32px);
@@ -492,7 +493,7 @@ kbd {
 .flow .is-gate::before { color: var(--accent); border-color: var(--accent-line); background: var(--accent-soft); }
 .flow .is-loop { margin-left: 28px; border-style: dashed; }
 .flow .is-loop::after {
-  content: "↺ back to validate"; position: absolute; right: 10px; top: -9px;
+  content: attr(data-note); position: absolute; right: 10px; top: -9px;
   font: 500 10px/1 var(--f-mono); color: var(--warn);
   background: var(--surface); padding: 2px 6px; border-radius: 6px; border: 1px solid var(--line);
 }
