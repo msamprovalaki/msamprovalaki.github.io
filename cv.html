@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — Marina Samprovalaki</title>
+  <meta name="description" content="Curriculum vitae of Marina Samprovalaki, AI Engineer.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..600&family=Geist+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    (function () {
+      try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+    })();
+  </script>
+  <style>
+    .cv-bar {
+      position: sticky; top: 0; z-index: 10;
+      background: var(--nav-bg); border-bottom: 1px solid var(--line);
+      -webkit-backdrop-filter: saturate(160%) blur(14px); backdrop-filter: saturate(160%) blur(14px);
+    }
+    .cv-bar .nav-inner { gap: 12px; }
+    .cv-title { font-size: 14px; color: var(--ink-3); }
+    .cv-actions { display: flex; gap: 8px; margin-left: auto; }
+    .cv-stage { max-width: 880px; margin-inline: auto; padding: 32px var(--gutter) 64px; }
+    .cv-page {
+      position: relative; margin-bottom: 24px;
+      background: #fff; border-radius: 6px; overflow: hidden;
+      border: 1px solid var(--line); box-shadow: var(--shadow);
+    }
+    .cv-page canvas { display: block; width: 100%; height: auto; }
+    .cv-link { position: absolute; border-radius: 3px; transition: background .15s, box-shadow .15s; }
+    .cv-link:hover, .cv-link:focus-visible { background: rgba(84, 69, 212, .12); box-shadow: 0 0 0 1px rgba(84, 69, 212, .45); outline: none; }
+    .cv-status { padding: 48px 0; text-align: center; color: var(--ink-3); }
+    .cv-status a { color: var(--accent); border-bottom: 1px solid currentColor; }
+    @media (max-width: 480px) { .cv-title { display: none; } }
+  </style>
+</head>
+<body>
+  <header class="cv-bar">
+    <div class="nav-inner">
+      <a class="brand" href="./" aria-label="Back to homepage">
+        <span class="brand-mark" aria-hidden="true">MS</span>
+        <span class="brand-name">Marina Samprovalaki</span>
+      </a>
+      <span class="cv-title">Curriculum Vitae</span>
+      <div class="cv-actions">
+        <a class="btn btn-small" href="./">← Home</a>
+        <a class="btn btn-small btn-primary" href="assets/Marina_Samprovalaki_CV.pdf" download>Download PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="cv-stage" id="cv">
+    <p class="cv-status" data-status>Loading CV…</p>
+    <noscript><p class="cv-status"><a href="assets/Marina_Samprovalaki_CV.pdf">Open the CV as a PDF</a></p></noscript>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    (function () {
+      "use strict";
+      var PDF_URL = "assets/Marina_Samprovalaki_CV.pdf";
+      var stage = document.getElementById("cv");
+      var status = document.querySelector("[data-status]");
+
+      function fail() {
+        status.innerHTML = 'Couldn’t display the CV here. <a href="' + PDF_URL + '" target="_blank" rel="noopener">Open the PDF instead</a>.';
+      }
+      if (!window.pdfjsLib) { fail(); return; }
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+      var pages = [];
+      var lastWidth = 0;
+
+      function renderPage(entry) {
+        var width = entry.el.clientWidth;
+        var base = entry.page.getViewport({ scale: 1 });
+        var viewport = entry.page.getViewport({ scale: width / base.width });
+        var ratio = Math.min(window.devicePixelRatio || 1, 3);
+        var canvas = entry.canvas;
+        canvas.width = Math.floor(viewport.width * ratio);
+        canvas.height = Math.floor(viewport.height * ratio);
+        if (entry.task) entry.task.cancel();
+        entry.task = entry.page.render({
+          canvasContext: canvas.getContext("2d"),
+          viewport: viewport,
+          transform: ratio !== 1 ? [ratio, 0, 0, ratio, 0, 0] : null
+        });
+        entry.task.promise.catch(function () {});
+      }
+
+      function addLinks(entry) {
+        var viewport = entry.page.getViewport({ scale: 1 });
+        return entry.page.getAnnotations().then(function (annots) {
+          annots.forEach(function (a) {
+            if (a.subtype !== "Link" || !a.url) return;
+            var r = viewport.convertToViewportRectangle(a.rect);
+            var left = Math.min(r[0], r[2]), top = Math.min(r[1], r[3]);
+            var link = document.createElement("a");
+            link.className = "cv-link";
+            link.href = a.url;
+            link.target = "_blank";
+            link.rel = "noopener";
+            link.setAttribute("aria-label", a.url.replace(/^mailto:/, "Email "));
+            link.style.left = (left / viewport.width * 100) + "%";
+            link.style.top = (top / viewport.height * 100) + "%";
+            link.style.width = (Math.abs(r[2] - r[0]) / viewport.width * 100) + "%";
+            link.style.height = (Math.abs(r[3] - r[1]) / viewport.height * 100) + "%";
+            entry.el.appendChild(link);
+          });
+        });
+      }
+
+      pdfjsLib.getDocument(PDF_URL).promise.then(function (pdf) {
+        var jobs = [];
+        for (var n = 1; n <= pdf.numPages; n++) jobs.push(pdf.getPage(n));
+        return Promise.all(jobs);
+      }).then(function (loaded) {
+        status.remove();
+        loaded.forEach(function (page, i) {
+          var el = document.createElement("div");
+          el.className = "cv-page";
+          var canvas = document.createElement("canvas");
+          canvas.setAttribute("role", "img");
+          canvas.setAttribute("aria-label", "CV page " + (i + 1));
+          el.appendChild(canvas);
+          stage.appendChild(el);
+          var entry = { page: page, el: el, canvas: canvas, task: null };
+          pages.push(entry);
+          renderPage(entry);
+          addLinks(entry);
+        });
+        lastWidth = stage.clientWidth;
+      }).catch(fail);
+
+      var t;
+      window.addEventListener("resize", function () {
+        clearTimeout(t);
+        t = setTimeout(function () {
+          if (Math.abs(stage.clientWidth - lastWidth) < 40) return;
+          lastWidth = stage.clientWidth;
+          pages.forEach(renderPage);
+        }, 200);
+      });
+    })();
+  </script>
+</body>
+</html>

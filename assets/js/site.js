@@ -249,7 +249,12 @@
     { group: "Navigate", label: "Experience", hint: "#experience", run: go("experience") },
     { group: "Navigate", label: "Publications", hint: "#research", run: go("research") },
     { group: "Navigate", label: "Contact", hint: "#contact", run: go("contact") },
-    { group: "Actions", label: "Download CV", hint: "pdf", run: open("assets/Marina_Samprovalaki_CV.pdf") },
+    { group: "Actions", label: "View CV", hint: "cv", run: open("cv.html") },
+    { group: "Actions", label: "Download CV", hint: "pdf", run: function () {
+      var a = document.createElement("a");
+      a.href = "assets/Marina_Samprovalaki_CV.pdf"; a.download = "";
+      document.body.appendChild(a); a.click(); a.remove();
+    } },
     { group: "Actions", label: "Copy email address", hint: "email", run: function () { copy("marina.samprovalaki@gmail.com", "Email copied"); } },
     { group: "Actions", label: "Toggle light / dark theme", hint: "theme", run: toggleTheme },
     { group: "Links", label: "GitHub", hint: "github.com", run: open("https://github.com/msamprovalaki") },

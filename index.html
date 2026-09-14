@@ -73,7 +73,7 @@
       </a>
       <nav class="nav-links" id="nav-links" aria-label="Primary">
         <a href="#expertise">Expertise</a>
-        <a href="#work">Work</a>
+        <!-- <a href="#work">Work</a> -->
         <a href="#experience">Experience</a>
         <a href="#research">Research</a>
         <a href="#contact">Contact</a>
@@ -85,7 +85,7 @@
         <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle colour theme">
           <svg class="i-sun"><use href="#i-sun"/></svg><svg class="i-moon"><use href="#i-moon"/></svg>
         </button>
-        <a class="btn btn-small" href="assets/Marina_Samprovalaki_CV.pdf" target="_blank" rel="noopener">CV</a>
+        <a class="btn btn-small" href="cv.html" target="_blank" rel="noopener">CV</a>
         <button class="icon-btn nav-menu" type="button" data-menu aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
           <svg><use href="#i-menu"/></svg>
         </button>
@@ -111,13 +111,13 @@
           </p>
           <div class="hero-cta" data-reveal>
             <a class="btn btn-primary" href="#work">See selected work <svg><use href="#i-arrow"/></svg></a>
-            <a class="btn" href="assets/Marina_Samprovalaki_CV.pdf" target="_blank" rel="noopener">Download CV <svg><use href="#i-down"/></svg></a>
+            <a class="btn" href="assets/Marina_Samprovalaki_CV.pdf" download>Download CV <svg><use href="#i-down"/></svg></a>
           </div>
           <ul class="socials" data-reveal>
             <li><a href="https://github.com/msamprovalaki" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a></li>
             <li><a href="https://www.linkedin.com/in/marina-samprovalaki/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a></li>
             <li><a href="https://scholar.google.com/citations?user=iRPZ3joAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg><use href="#i-scholar"/></svg></a></li>
-            <li><a href="mailto:marina.samprovalaki@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a></li>
+            <li><a href="mailto:marina.samprovalaki@gmail.com" target="_blank" rel="noopener" aria-label="Email"><svg><use href="#i-mail"/></svg></a></li>
           </ul>
         </div>
 
@@ -136,6 +136,8 @@
       </div>
 
     </section>
+    
+    
 
     <!-- EXPERTISE -->
     <section class="section" id="expertise">
@@ -188,7 +190,7 @@
     </section>
 
     <!-- WORK -->
-    <section class="section section-alt" id="work">
+    <!-- <section class="section section-alt" id="work">
       <div class="wrap">
         <header class="section-head" data-reveal>
           <p class="eyebrow"><span>02</span> Selected work</p>
@@ -218,11 +220,11 @@
               <li class="is-out"><span>Render</span><small>Jinja2 → clean Markdown</small></li>
             </ol>
           </div>
-        </article>
+        </article> -->
 
 
 
-        <article class="case" data-reveal>
+        <!-- <article class="case" data-reveal>
           <div class="case-copy">
             <p class="case-kicker">Enablement · Hands-on training material</p>
             <h3>MCP servers and a tool-use curriculum</h3>
@@ -254,7 +256,7 @@
               <p class="hub-models">Claude · GPT · Gemini · Qwen</p>
             </div>
           </div>
-        </article>
+        </article> -->
       </div>
     </section>
 
@@ -272,9 +274,13 @@
             <div class="role-body">
               <h3>AI Engineer <span>· Agile Actors</span></h3>
               <ul>
-                <li>Architect multi-agent chatbots and stateful LLM workflows with LangChain.</li>
+                <li>Build and ship a production multi-agent assistant that turns natural-language questions into SQL queries over a relational database.</li>
+                <li>Secure it with guardrails, including SQL validation, prompt hardening and attack monitoring.</li>
+                <li>Track SQL-generation accuracy with an LLM-as-judge evaluation pipeline I designed, and benchmark LLM systems for accuracy and faithfulness before they ship.</li>
+                <li>Architect multi-agent chatbots and stateful LLM workflows with LangChain and LangGraph.</li>
                 <li>Build agentic RAG pipelines for complex document and image retrieval across multiple databases.</li>
-                <li>Benchmark LLM systems for accuracy and faithfulness before they ship.</li>
+                <li>Turn unstructured Word documents into structured Markdown with a pipeline built on Azure Document Intelligence.</li>
+                <li>Deploy and operate containerised services on OpenShift, including incident diagnosis and resolution.</li>
               </ul>
             </div>
           </li>
@@ -407,7 +413,7 @@
           <h2 class="display">Building something with agents? <em>Let's talk.</em></h2>
           <p class="lede">I'm open to conversations about agentic systems, RAG, MCP and LLM evaluation, whether that's a role, a collaboration or a talk.</p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="mailto:marina.samprovalaki@gmail.com"><svg><use href="#i-mail"/></svg> marina.samprovalaki@gmail.com</a>
+            <a class="btn btn-primary" href="mailto:marina.samprovalaki@gmail.com" target="_blank" rel="noopener"><svg><use href="#i-mail"/></svg> marina.samprovalaki@gmail.com</a>
             <button class="btn" type="button" data-copy="marina.samprovalaki@gmail.com"><svg><use href="#i-copy"/></svg> Copy email</button>
           </div>
           <ul class="socials">
