@@ -245,7 +245,7 @@
 
   var COMMANDS = [
     { group: "Navigate", label: "Expertise", hint: "#expertise", run: go("expertise") },
-    { group: "Navigate", label: "Selected work", hint: "#work", run: go("work") },
+    // { group: "Navigate", label: "Selected work", hint: "#work", run: go("work") },
     { group: "Navigate", label: "Experience", hint: "#experience", run: go("experience") },
     { group: "Navigate", label: "Publications", hint: "#research", run: go("research") },
     { group: "Navigate", label: "Contact", hint: "#contact", run: go("contact") },
